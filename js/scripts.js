@@ -8,7 +8,10 @@
 (function($) {
     "use strict"; 
 	
-	
+	/* Preloader */
+	$(window).on('load', function() {
+		hidePreloader();
+	});
 
 	
 	/* Navbar Scripts */
