@@ -249,7 +249,7 @@
         $.ajax({
             type: "POST",
             url: "php/contactform-process.php",
-            data: "name=" + name + "&email=" + email + "&message=" + message + "&terms=" + terms, 
+            data: "name=" + name + "&email=" + email + "&message=" + message, 
             success: function(text) {
                 if (text == "success") {
                     cformSuccess();

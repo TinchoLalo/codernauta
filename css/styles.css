@@ -331,9 +331,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #bf14bf;
 	border-radius: 0.25rem;
-	background-color: #14bf98;
+	background-color: #bf14bf;
 	color: #fff;
 	font: 700 0.75rem/1.75rem "Montserrat", sans-serif;
 	cursor: pointer;
@@ -342,7 +342,7 @@ input[type='checkbox'] {
 
 .form-control-submit-button:hover {
 	background-color: transparent;
-	color: #14bf98;
+	color: #bf14bf;
 }
 
 /* Form Success And Error Message Formatting */
@@ -854,10 +854,14 @@ input[type='checkbox'] {
 
 .cards-1 .fa-stack .hexagon {
 	position: absolute;
+	margin-left: 5rem;
 	width: 6rem;
 	height: 6rem;
-	background: url('../images/hexagon-green.svg') center center no-repeat;
+	background: url('../images/hexagonoAsset\ 14.svg') center center no-repeat;
 	background-size: 6rem 6rem;
+}
+.cards-1 .fa-stack i {
+	margin-left: 5rem;
 }
 
 .cards-1 .fa-stack-1x {
@@ -1005,9 +1009,9 @@ input[type='checkbox'] {
 	width: 2.25rem;
 	height: 2.25rem;
 	margin-right: 0.875rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #bf14bf;
 	border-radius: 50%;
-	background-color: #14bf98;
+	background-color: #bf14bf;
 	color: #fff;
 	font: 700 1rem/2.125rem "Montserrat", sans-serif;
 	text-align: center;
@@ -1023,8 +1027,8 @@ input[type='checkbox'] {
 }
 
 .accordion .item:hover span[aria-expanded="false"] .circle-numbering {
-	border: 0.125rem solid #14bf98;
-	color: #14bf98;
+	border: 0.125rem solid #bf14bf;
+	color: #bf14bf;
 }
 
 .accordion .accordion-title {
@@ -1040,11 +1044,11 @@ input[type='checkbox'] {
 }
 
 .accordion .item:hover .accordion-title {
-	color: #14bf98;
+	color: #bf14bf;
 }
 
 .accordion span[aria-expanded="true"] .accordion-title {
-	color: #14bf98;
+	color: #bf14bf;
 }
 
 .accordion .accordion-body {
@@ -1056,7 +1060,7 @@ input[type='checkbox'] {
 /*     09. Details 2     */
 /*************************/
 .tabs .tabs-container {
-	max-width: 90%;
+	max-width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	padding-top: 2rem;
@@ -1083,7 +1087,8 @@ input[type='checkbox'] {
 
 .tabs .nav-link:hover,
 .tabs .nav-link.active {
-	color: #14bf98;
+	color: #bf14bf;
+	width: 100%;
 }
 
 .tabs .nav-link .fas {
@@ -1093,7 +1098,7 @@ input[type='checkbox'] {
 }
 
 .tabs #tab-1 .progress-container {
-	margin-top: 1.5rem;
+	margin-top: 0.5rem;
 }
 
 .tabs #tab-1 .progress-container .title {
@@ -1106,53 +1111,77 @@ input[type='checkbox'] {
 	height: 1.375rem;
 	margin-bottom: 1.125rem;
 	border-radius: 0.125rem;
-	background-color: #f9fafc;
+	background-color: #e8effb;
 }
 
 .tabs #tab-1 .progress-bar {
 	display: block;
 	padding-left: 1.5rem;
 	border-radius: 0.125rem;
-	background: linear-gradient(to bottom right, #14bf98, #1bd1a7);
+	background: linear-gradient(to bottom right, #b114bf, #b114bf);
 }
 
-.tabs #tab-1 .progress-bar.first {
-	width: 100%;
-}
-
-.tabs #tab-1 .progress-bar.second {
+.tabs #tab-1 .progress-bar.uno {
 	width: 75%;
 }
 
-.tabs #tab-1 .progress-bar.third {
+.tabs #tab-1 .progress-bar.dos {
+	width: 60%;
+}
+
+.tabs #tab-1 .progress-bar.tres {
 	width: 90%;
+}
+
+.tabs #tab-1 .progress-bar.cuatro {
+	width: 50%;
 }
 
 .tabs #tab-2 .list-unstyled {
 	margin-top: 1.75rem;
 	margin-bottom: 0;
 	vertical-align: top;
+	width: 100%;
 }
 
 .tabs #tab-2 .list-unstyled .media {
 	margin-bottom: 2rem;
+	width: 100%;
 }
 
 .tabs #tab-2 .list-unstyled .media-bullet {
-	color: #14bf98;
+	color: #bf14bf;
 	font-weight: 600;
-	font-size: 2rem;
+	font-size: 1.2rem;
+	padding-left: 1rem;
+	padding-right: 5rem;
+	margin-right: 3rem;
 	line-height: 2rem;
+	display: inline-block;
+	width: 100%;
+}
+
+.tabs #tab-2 .list-unstyled .media-bullet b {
+	color: #424242;
+	font-weight: 600;
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+	font-size: 0.9rem;
 }
 
 .tabs #tab-2 .list-unstyled .media-body {
-	margin-left: 0.875rem;
+	padding: 0%;
+	display: inline-block;
+	margin: 0%;
+	font-size: 0.2;
 }
 
 .tabs #tab-3 .list-unstyled .fas {
-	color: #14bf98;
+	color: #bf14bf;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
+	margin-right: 1rem;
 }
 
 .tabs #tab-3 .list-unstyled .media-body {
@@ -1267,7 +1296,7 @@ input[type='checkbox'] {
 }
 
 .form-1 .list-unstyled .fas {
-	color: #14bf98;
+	color: #bf14bf;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1352,12 +1381,12 @@ input[type='checkbox'] {
 }
 
 .filter .button-group a:hover {
-	background-color: #14bf98;
+	background-color: #bf14bf;
 	color: #fff;
 }
 
 .filter .button-group a.button.is-checked {
-	background-color: #14bf98;
+	background-color: #bf14bf;
 	color: #fff;
 }
 
@@ -1439,7 +1468,7 @@ input[type='checkbox'] {
 	margin-bottom: 0.625rem;
 	margin-left: 0;
 	border: none;
-	background-color: #14bf98;
+	background-color: #bf14bf;
 }
 
 .lightbox-basic h6 {
@@ -1570,7 +1599,7 @@ input[type='checkbox'] {
 }
 
 .basic-2 .fa-stack:hover .fa-stack-1x {
-	color: #14bf98;
+	color: #bf14bf;
 }
 
 
@@ -1603,7 +1632,7 @@ input[type='checkbox'] {
 }
 
 .counter .list-unstyled .fas {
-	color: #14bf98;
+	color: #bf14bf;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1625,7 +1654,7 @@ input[type='checkbox'] {
 .counter #counter .counter-value {
 	display: inline-block;
 	margin-bottom: 0.125rem;
-	color: #14bf98;
+	color: #bf14bf;
 	font: 700 2.875rem/3.25rem "Montserrat", sans-serif;
 	vertical-align: middle;
 }
@@ -1670,7 +1699,7 @@ input[type='checkbox'] {
 .form-2 .list-unstyled .fab {
 	margin-right: 0.5rem;
 	font-size: 0.875rem;
-	color: #14bf98;
+	color: #bf14bf;
 }
 
 .form-2 .list-unstyled .fa-phone {
@@ -1693,7 +1722,7 @@ input[type='checkbox'] {
 	position: absolute;
 	width: 3.25rem;
 	height: 3.25rem;
-	background: url('../images/hexagon-green.svg') center center no-repeat;
+	background: url('../images/hexagonoAsset\ 14.svg') center center no-repeat;
 	background-size: 3.25rem 3.25rem;
 	transition: all 0.2s ease;
 }
@@ -1711,7 +1740,7 @@ input[type='checkbox'] {
 }
 
 .form-2 .fa-stack:hover .fa-stack-1x {
-	color: #14bf98;
+	color: #bf14bf;
 }
 
 
@@ -1720,7 +1749,7 @@ input[type='checkbox'] {
 /**********************/
 .footer {
 	padding-top: 5rem;
-	background-color: #113448;
+	background-color: #021036;
 }
 
 .footer .text-container {
@@ -1743,16 +1772,18 @@ input[type='checkbox'] {
 /*     18. Copyright     */
 /*************************/
 .copyright {
-	padding-top: 1rem;
 	padding-bottom: 0.5rem;
-	background-color: #113448;
+	background-color: #021036;
 	text-align: center;
 }
 
 .copyright p,
 .copyright a {
 	color: #dfe5ec;
+	font-weight: 700;
 	text-decoration: none;
+	font-size: 2rem;
+	padding-bottom: 0.5rem;
 }
 
 
@@ -1768,13 +1799,13 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #14bf98 url("../images/up-arrow.png") no-repeat center 47%;
+	background: #bf14bf url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color: #13aa87; 
+	background-color: #bf14bf; 
 }
 
 
@@ -1825,7 +1856,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .fas {
-	color: #14bf98;
+	color: #bf14bf;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -2079,7 +2110,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #14bf98;
+		color: #bf14bf;
 	}
 	/* end of navigation */
 

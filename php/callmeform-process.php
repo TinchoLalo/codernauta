@@ -31,8 +31,8 @@ if (empty($_POST["terms"])) {
     $terms = $_POST["terms"];
 }
 
-$EmailTo = "yourname@domain.com";
-$Subject = "New quote request from Aria landing page";
+$EmailTo = "nautacoder@gmail.com";
+$Subject = "Gracias por Contactarte con nosotros, pronto estaremos contestando tu inquietudes.";
 
 // prepare email body text
 $Body = "";
@@ -47,9 +47,6 @@ $Body .= $email;
 $Body .= "\n";
 $Body .= "Package: ";
 $Body .= $select;
-$Body .= "\n";
-$Body .= "Terms: ";
-$Body .= $terms;
 $Body .= "\n";
 
 // send email
