@@ -978,9 +978,10 @@ input[type='checkbox'] {
 /*     08. Details 1     */
 /*************************/
 .accordion .area-1 {
-	height: 27rem;
-	background: url('../images/details-1-background.jpg') center center no-repeat;
-	background-size: cover;
+	height: 22rem;
+	margin-top: 2rem;
+	background: url('../images/desingirlAsset\ 22.svg') center center no-repeat;
+	background-size:contain;
 }
 
 .accordion .accordion-container {
@@ -1193,9 +1194,9 @@ input[type='checkbox'] {
 }
 
 .tabs .area-2 {
-	height: 27rem;
-	background: url('../images/details-2-background.jpg') center center no-repeat;
-	background-size: cover;
+	height: 22rem;
+	background: url('../images/diseño3Asset\ 19.svg') center center no-repeat;
+	background-size:contain;
 }
 
 
@@ -1784,9 +1785,38 @@ input[type='checkbox'] {
 	text-decoration: none;
 	font-size: 2rem;
 	padding-bottom: 0.5rem;
+	margin-top: 1rem;
+	text-align: center;
 }
 
+.copyright label {
+	color: #dfe5ec;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 2rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+}
 
+#mc_embed_signup{
+	background:rgba(255, 255, 255, 0);
+	clear:center;
+	font:14px Helvetica,Arial,sans-serif; 
+	align-items: center;
+	width: 50%;
+	margin: auto;
+	
+}
+#mc_embed_signup .clear input{
+	border: 0.125rem solid #bf14bf;
+	border-radius: 0.25rem;
+	background-color: #bf14bf;
+	
+}
+#mc_embed_signup .clear input:hover{
+	background-color: #bf14bf00;
+	
+}
 /**********************************/
 /*     19. Back To Top Button     */
 /**********************************/
