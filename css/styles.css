@@ -1936,6 +1936,7 @@ a:hover.back-to-top {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
+	
 
 	.navbar-custom .nav-item .nav-link {
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
@@ -2527,6 +2528,37 @@ a:hover.back-to-top {
 		padding-right: 12rem;
 		padding-left: 12rem;
 	}
+
+	
 	/* end of navigation */
 }
-/* end of min-width width 1200px */
+
+@media (min-width: 300px) {
+	
+	body {
+		width: 80%;
+	}
+	
+	/* Navigation */
+	.navbar-custom {
+		padding-right: 1rem;
+		padding-left: 1rem;
+		width: 80%;
+		color: #010755;
+	}
+
+
+	.navbar-custom.top-nav-collapse {
+		padding-right: 1rem;
+		padding-left: 0rem;
+		
+	}
+
+	.navbar-custom .navbar-brand.logo-image img {
+		width: 8rem;
+		margin: auto;
+		
+	}
+	
+	/* end of navigation */
+}
