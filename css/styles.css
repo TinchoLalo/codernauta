@@ -810,7 +810,7 @@ input[type='checkbox'] {
 }
 
 .basic-1 .image-container:hover img {
-	transform: scale(1.10);
+	transform: scale(1.02);
 } 
 
 /* end of hover animation */
@@ -1345,6 +1345,7 @@ input[type='checkbox'] {
 /************************/
 /*     12. Projects     */
 /************************/
+
 .filter {
 	padding-top: 6.5rem;
 	padding-bottom: 7rem;
@@ -1361,6 +1362,7 @@ input[type='checkbox'] {
 
 .filter h2 {
 	margin-bottom: 3.25rem;
+	color: #ffffff;
 }
 
 .filter .button-group {
@@ -1451,7 +1453,7 @@ input[type='checkbox'] {
 	margin: 2.5rem auto;
 	padding: 1.5625rem;
 	border-radius: 0.25rem;
-	background: #fff;
+	background: rgb(255, 255, 255);
 	text-align: left;
 }
 
