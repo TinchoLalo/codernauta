@@ -2533,32 +2533,3 @@ a:hover.back-to-top {
 	/* end of navigation */
 }
 
-@media (min-width: 300px) {
-	
-	body {
-		width: 80%;
-	}
-	
-	/* Navigation */
-	.navbar-custom {
-		padding-right: 1rem;
-		padding-left: 1rem;
-		width: 80%;
-		color: #010755;
-	}
-
-
-	.navbar-custom.top-nav-collapse {
-		padding-right: 1rem;
-		padding-left: 0rem;
-		
-	}
-
-	.navbar-custom .navbar-brand.logo-image img {
-		width: 8rem;
-		margin: auto;
-		
-	}
-	
-	/* end of navigation */
-}
