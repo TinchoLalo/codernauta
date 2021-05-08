@@ -1975,13 +1975,13 @@ a:hover.back-to-top {
 	.navbar-custom .dropdown-menu {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
-		border-top: 0.75rem solid rgba(0, 0, 0, 0);
+		border-top: 0.75rem solid rgba(0, 0, 0, 0.842);
 		border-radius: 0.25rem;
-		box-shadow: 0 0.25rem 0.375rem 0 rgba(0, 0, 0, 0.03);
+		box-shadow: 0 0.25rem 0.375rem 0 rgba(0, 0, 0, 0.801);
 	}
 	
 	.navbar-custom.top-nav-collapse .dropdown-menu {
-		border-top: 0.125rem solid rgba(0, 0, 0, 0);
+		border-top: 1.125rem solid rgb(0, 0, 0);
 	}
 
 	.navbar-custom .dropdown-item {
@@ -2536,9 +2536,7 @@ a:hover.back-to-top {
 	
 	/* Navigation */
 	.navbar-custom {
-		padding-right: 12rem;
-		padding-left: 0.5rem;
-		background: #021036;
+		display: none;
 	}
 
 	
@@ -2546,9 +2544,44 @@ a:hover.back-to-top {
 		width: 12rem;
 		float: left;
 	}
+	.navbar-custom .navbar-toggler {
+		border: none;
+		color: #fff;
+		font-size: 2rem;
+		padding-left: 0.5rem;
+	}
 
+	.header .header-content {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+		text-align: center;
+	}
 	
-
+	.header h2 {
+		color: #ffffff;
+		font: 700 1.2rem/4rem "Montserrat", sans-serif;
+	}
+	#details {
+		width: 90%;
+		margin: auto;
+	}
+	#intro2 {
+		background: linear-gradient(rgba(1, 2, 44, 0.911), rgba(2, 36, 99, 0.904));
+		
+	}
+	#intro2 .text-container {
+		margin-top: 5rem;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#intro .text-container {
+		margin-top: 3rem;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
 	
 	/* end of navigation */
 }
