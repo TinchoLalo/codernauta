@@ -2532,4 +2532,23 @@ a:hover.back-to-top {
 	
 	/* end of navigation */
 }
+@media (max-width: 700px) {
+	
+	/* Navigation */
+	.navbar-custom {
+		padding-right: 12rem;
+		padding-left: 0.5rem;
+		background: #021036;
+	}
 
+	
+	.navbar-custom .navbar-brand.logo-image img {
+		width: 12rem;
+		float: left;
+	}
+
+	
+
+	
+	/* end of navigation */
+}
