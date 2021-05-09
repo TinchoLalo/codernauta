@@ -843,7 +843,7 @@ input[type='checkbox'] {
 }
 
 .cards-1 .fa-stack {
-	width: 6rem;
+	width: 8rem;
 	height: 6rem;
 	margin-right: auto;
 	margin-bottom: 1rem;
@@ -854,14 +854,18 @@ input[type='checkbox'] {
 
 .cards-1 .fa-stack .hexagon {
 	position: absolute;
-	margin-left: 5rem;
-	width: 6rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 8rem;
 	height: 6rem;
 	background: url('../images/hexagonoAsset\ 14.svg') center center no-repeat;
 	background-size: 6rem 6rem;
 }
 .cards-1 .fa-stack i {
-	margin-left: 5rem;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	align-items: center;
 }
 
 .cards-1 .fa-stack-1x {
@@ -871,11 +875,26 @@ input[type='checkbox'] {
 
 .cards-1 .card-body {
 	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	text-align: center;
+	align-items: center;
+}
+.cards-1 .card-body p {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	font-weight: 600;
+	text-align: justify;
+	align-items: center;
 }
 
 .cards-1 .card-title {
 	margin-bottom: 0.625rem;
 	color: #626bc0;
+	
 }
 
 
@@ -1341,7 +1360,10 @@ input[type='checkbox'] {
 	color: #dfe5ec;
 }
 
-
+.contact-img img {
+	width: 20rem;
+	margin:auto;
+}
 /************************/
 /*     12. Projects     */
 /************************/
@@ -1616,6 +1638,7 @@ input[type='checkbox'] {
 
 .counter .image-container {
 	margin-bottom: 3rem;
+
 }
 
 .counter .image-container img {
@@ -2484,18 +2507,20 @@ a:hover.back-to-top {
 	/* Contact */
 	.form-2 .text-container {
 		margin-top: 0.875rem;
-		margin-right: 1.5rem;
+		margin-right: 0;
 	}
 
 	.form-2 form {
 		margin-left: 1.5rem;
+		width: 100%;
+		display: block;
 	}
 	/* end of contact */
 
 
 	/* Footer */
 	.footer .text-container.about {
-		margin-right: 5rem;
+		margin-right: 0;
 	}
 	/* end of footer */
 
@@ -2581,7 +2606,20 @@ a:hover.back-to-top {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
+	.luna img {
+		width: 100%;
+		width: auto;
+		height: auto;
+		margin: -0.06rem auto;
+		padding: auto;
+		min-zoom: 100%;
+	}
+	.contact-img img {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+	}
 	
 	/* end of navigation */
 }
