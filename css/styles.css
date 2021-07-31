@@ -771,9 +771,11 @@ input[type='checkbox'] {
 	width: 100%;
 	width: auto;
 	height: auto;
-	margin: -0.05rem auto;
+	margin: -0.05rem;
 	padding: auto;
 	min-zoom: 100%;
+	top: auto;
+	overflow: hidden;
 }
 
 .basic-1 .text-container {
@@ -1169,7 +1171,7 @@ input[type='checkbox'] {
 	width: 100%;
 }
 
-.tabs #tab-2 .list-unstyled .media-bullet {
+.tabs #tab-2 .list-unstyled .media-bullet h3 {
 	color: #bf14bf;
 	font-weight: 600;
 	font-size: 1.2rem;
@@ -1177,7 +1179,7 @@ input[type='checkbox'] {
 	padding-right: 5rem;
 	margin-right: 3rem;
 	line-height: 2rem;
-	display: inline-block;
+	display: block;
 	width: 100%;
 }
 
