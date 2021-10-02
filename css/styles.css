@@ -11,6 +11,13 @@ body, p {
 	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+   /*Comenta la línea (o dale el valor 'auto' a scroll behavior )
+   para probar la diferencia con y sin scroll suavizado*/
+}
+
+
 .p-large {
 	font: 400 1.125rem/1.625rem "Open Sans", sans-serif;
 }
@@ -2472,6 +2479,7 @@ a:hover.back-to-top {
 	.filter .element-item {
 		width: 17.3125rem; /* to eliminate grid overflow problem on hard refresh */
 		height: 16.875rem;
+		
 	}
 
 	.filter .element-item .element-item-overlay span { 
@@ -2623,5 +2631,10 @@ a:hover.back-to-top {
 		align-items: center;
 	}
 	
+	/* Projects */
+	.filter .element-item {
+		margin-bottom: 2rem;
+		
+	}
 	/* end of navigation */
 }
